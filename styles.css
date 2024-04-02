@@ -1,0 +1,67 @@
+/* Styles for Resume Analyzer */
+
+/* Subheader styles */
+.st-subheader {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000; /* Black text */
+}
+
+/* Success message styles */
+.st-success {
+    color: #000000; /* Black text */
+    font-weight: bold;
+}
+
+/* Danger message styles */
+.st-error {
+    color: #000000; /* Black text */
+    font-weight: bold;
+}
+
+/* Warning message styles */
+.st-warning {
+    color: #000000; /* Black text */
+    font-weight: bold;
+}
+
+/* Progress bar styles */
+.stProgress > div > div > div > div {
+    background-color: #000000; /* Black progress bar */
+}
+
+/* Link styles */
+a {
+    color: #000000; /* Black link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.stButton>button {
+    background-color: #000000; /* Black button background */
+    color: #ffffff; /* White button text */
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #333333; /* Darker black on hover */
+}
+
+/* Tag styles */
+.stMultiSelect>div>div>div>div>div {
+    background-color: #000000; /* Black tag background */
+    color: #ffffff; /* White tag text */
+}
+
+.stMultiSelect>div>div>div>div>div:hover {
+    background-color: #333333; /* Darker black on hover */
+}
